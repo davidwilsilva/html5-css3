@@ -57,6 +57,7 @@ main{
     text-align: justify;
     border-radius: 0 0 9px 9px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.312);
+    padding: 10px;
 }
 
 .titulo{
