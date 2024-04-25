@@ -29,7 +29,7 @@ nav{
 }
 
 
-header aside{
+header p{
     color: rgb(153, 153, 153);
 }
 
@@ -83,7 +83,7 @@ h2{
     max-width: 800px;
 }
 
-section{
+div{
     padding: 5px 10px;
 }
 
