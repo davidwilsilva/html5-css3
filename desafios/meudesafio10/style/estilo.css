@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #84E1AD;
+
+}
+
+header{
+    height: 170px;
+    padding-top: 5px;
+    color: white
+    ;
+    margin: 0 auto;
+    text-align: center;
+    background-image: linear-gradient(to bottom,rgb(98, 239, 98),rgb(0, 67, 0));
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.364);
+}
+
+
+nav{
+    margin-top: 20px;
+    padding:10px 0px 0px 10px;
+    text-align: left;
+    
+    
+}
+
+
+header aside{
+    color: rgb(153, 153, 153);
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background 0.5s;
+    
+}
+
+nav a:hover{
+    background-color: rgba(0, 154, 0, 0.823);
+    
+
+
+}
+
+main{
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    border-radius: 0 0 9px 9px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.312);
+}
+
+.titulo{
+    color: green;
+}
+
+h2{
+    background:linear-gradient(to right,#84E1AD,transparent);
+    padding-left: 5px;
+    color: green;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+  
+}
+.videoy{
+    border: solid green;
+    border-width: 10px 20px;
+}
+
+.videoy iframe{
+    max-width: 800px;
+}
+
+section{
+    padding: 5px 10px;
+}
+
+.quadro{
+    background-color:  #84E1AD;
+    margin: 15px 15px 30px 15px;
+    padding: 0;
+    border-radius: 9px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.312);
+}
+
+.quadro h3{
+    background-color: rgb(17, 158, 17);
+    border-radius: 9px 9px 0 0;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.quadro p{
+    padding: 10px;
+    
+}
+
+.quadro1{
+
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    flex-direction: row;
+    
+    
+}
+
+.quadro1 ul{
+    padding: 0 40px;
+    max-width: 400px;
+    display: inline-block;
+}
+
+ul{
+    list-style-type: upper-alpha;
+}
+
+.frase{
+    padding: 10px;
+}
+
+footer{
+    margin: 7px 0;
+    padding: 5px;
+    background-color: green;
+    text-align: center;
+}

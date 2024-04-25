@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(18, 18, 18, 0.866);
+    text-align: center;
+    color: white;
+}
+
+p a{
+    text-decoration: none;
+    color: white;
+}
+
+main img{
+    width: 400px;
+}
