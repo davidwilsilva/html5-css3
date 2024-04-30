@@ -11,8 +11,7 @@ body{
 header{
     height: 170px;
     padding-top: 5px;
-    color: white
-    ;
+    color: white;
     margin: 0 auto;
     text-align: center;
     background-image: linear-gradient(to bottom,rgb(98, 239, 98),rgb(0, 67, 0));
@@ -52,6 +51,7 @@ nav a:hover{
 main{
     background-color: white;
     width: 100%;
+    min-width: none;
     max-width: 800px;
     margin: 0 auto;
     text-align: justify;
@@ -81,6 +81,7 @@ h2{
 }
 
 .videoy iframe{
+    min-width: none;
     max-width: 800px;
 }
 
